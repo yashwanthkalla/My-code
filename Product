@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  float Number1, Number2, productOfTwoNumbers;
+    cout << "Enter two numbers: ";
+    cin >> Number1 >> Number2;
+    productOfTwoNumbers = Number1 * Number2;
+    cout << "Product = " << productOfTwoNumbers;
+    return 0;
+}
